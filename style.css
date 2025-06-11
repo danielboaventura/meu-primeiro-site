@@ -2,25 +2,63 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000000;
     color: #f2f2f2;
-    text-align: center;
     margin: 20px;
 }
 
 h1 {
     color: #f2f2f2;
+    text-align: center;
 }
 
-a {
-    color: #f2f2f2;
-    text-decoration: none;
+.text1 {
+    text-align: center;
 }
 
-a:hover  { /* muda o estilo quando o mouse passa por cima */
-    text-decoration: underline;
-    color: #ff0000;
+.pImg{
+    text-align: center;
 }
 
 img {
-    margin: 15px 0;
+    display: block;
+    margin:  15px auto;
     border-radius: 8px;
+}
+
+.git {
+    color: #fff;
+    background-color: #24292e;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.git:hover  { /* muda o estilo quando o mouse passa por cima */
+    background-color: #444;
+    text-decoration: none;
+}
+
+h2 {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+p {
+    text-align: center
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    padding-left: 0 auto;
+
+}
+
+ol {
+    display: table;
+    margin: 0 auto;
+    padding-left: 0 auto;
 }
