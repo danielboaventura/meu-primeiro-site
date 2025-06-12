@@ -20,6 +20,7 @@ h1 {
 
 img {
     display: block;
+    max-width: 100%;
     margin:  15px auto;
     border-radius: 8px;
 }
@@ -61,4 +62,46 @@ ol {
     display: table;
     margin: 0 auto;
     padding-left: 0 auto;
+}
+
+.container {
+    color: #fff;
+    background-color: #24292e;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.hobbies {
+    display: table;
+    margin: 0 auto;
+    padding-left: 0 auto;
+}
+
+.gatinho {
+    display: block;
+    margin:  20px auto;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+    color: #fff;
+    background-color: #0f0f0f;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: #161616;
+    text-decoration: none;
 }
